@@ -1,0 +1,79 @@
+@media screen and (max-width: 35em) {
+    body{
+        
+        font-size: 0.8em; 
+    }
+    .mainnav{padding: 1em;
+        
+        
+    }
+    nav a{text-decoration: none; 
+        
+    }
+    nav li{font-size: 1.5em;
+        
+        height: 2em;
+        list-style-type: none;
+        text-align: center
+    
+    }     
+   
+    p{padding: 1em;}
+    img{width: 100%;}
+    
+
+}
+
+
+
+@media screen and (min-width:35em) and (max-width: 60em) {
+    nav{
+        font-size: 1.2em;
+        height: 2.3em;
+    }
+    nav li{
+    display: inline;
+    padding: 3.5%
+   }
+    
+    nav ul{ 
+        text-align:center;
+}
+ 
+    body{font-size: 1em;}  
+    
+    h2{
+  padding: 0 2rem;
+  font-size: 2.5rem;
+  line-height: 3;
+  color: #444;
+}
+    h3{
+  padding: 0 2rem;
+  font-size: 1.6rem;
+  line-height: 3;
+}
+   p{
+  padding: 0 2rem 1rem;
+  font-size: 1rem;
+}
+    
+}
+
+
+@media screen and (min-width: 60em)  {
+  
+}
+
+
+.mainnav{
+     background-color: darkturquoise;
+    }
+body{background-color: darksalmon}
+h2{
+   color: beige;
+    
+}
+
+h3{color: brown}
+h1{text-align: center}
